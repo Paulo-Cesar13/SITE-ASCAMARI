@@ -15,7 +15,7 @@ header{
 }
 #banner{
     width: 100%;
-    background-color: rgba(0, 195, 255, 0.678);
+    background-color: rgb(86, 252, 252);
 }
 
 .banner-img{
@@ -36,34 +36,92 @@ header{
     border: 1px solid black;
 }
 
-.conteiner-titulo{
+.conteiner-hist{
     display: flex;
-    align-content: center;
-    align-items: center;
     width: 100%;
-    height: 100px;
-    margin-top: 5px;
-    border: 1px solid black;
-    background-color: rgb(248, 93, 93);
+    height: 500px;
+    border: 1px solid red;
 }
 
-.linha{
+.img-hist{
     display: flex;
     align-content: center;
     align-items: center;
-    left: 50px;
-    width: 80%;
-    height: 3px;
+    width: 60%;
+    height: 500px;
+}
+
+.img-hist img{
+    width: 100%;
+    height: 500px;
+    padding: 3px;
+}
+
+.tx-nh{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    width: 40%;
+    height: 500px;
+    padding: 5px;
+}
+
+.titulo-nh{
+    padding: 10px;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+}
+
+.p-nh p{
+    padding: 10px;
+    font-size: 20px;
+    font-style: italic;
+    text-align: justify;
+
+}
+
+#galeria{
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+    background-color: rgb(86, 252, 252);;
+}
+
+.fotos{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 500px;
+}
+
+.galeri{
+    width: 25%;
+    height: 500px;
+    border: 1px solid black;
+}
+
+#local{
+    width: 100%;
+    height: 600px;
+}
+
+.img-mapa{
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.infor{
+    width: 100%;
+    height: 130px;
     background-color: black;
 }
 
-.titulo, h3{
-    display: flex;
-    align-content: center;
-    align-items: center;
-    width: 200px;
-    height: 100px;
+h4{
+    font-size: 100px;
+    font-style: italic;
     text-align: center;
-    border: 1px solid black;
-    background-color: white;
+    color: aqua;
 }
