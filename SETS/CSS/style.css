@@ -40,6 +40,13 @@ nav ul li a{
     color: rgb(15, 15, 15);;
 }
 
+.descktop nav ul li:hover{
+    width: 160px;
+    border-radius: 10px;
+    transition: 0.7s;
+    background-color: rgb(255, 0, 221);
+}
+
 .sub-menu-1{
     display: none;
 }
@@ -65,6 +72,18 @@ nav ul li:hover .sub-menu-1 ul li{
 
 nav ul li:hover .sub-menu-1 ul li:hover{
     background-color: rgb(255, 0, 221);
+}
+
+.sub-menu-2{
+    display: none;
+}
+
+.hover-sub:hover .sub-menu-2{
+    display: block;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 140px;
+    background-color: rgb(86, 252, 252);
 }
 
 .mobile{
