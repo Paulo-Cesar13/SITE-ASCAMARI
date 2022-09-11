@@ -131,17 +131,7 @@ nav {
     margin-left: 32px;
 }
 
-.mobile-menu {
-    cursor: pointer;
-    display: none;
-}
 
-.mobile-menu div {
-    margin: 8px;
-    width: 32px;
-    height: 2px;
-    background: black;
-}
 
 #banner{
     width: 100%;
