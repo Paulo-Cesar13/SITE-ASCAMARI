@@ -260,6 +260,11 @@ h4{
     body {
         overflow: hidden;
     }
+
+    .mobile-menu {
+        cursor: pointer;
+        display: block;
+    }
     .nave-list {
         position: absolute;
         flex-direction: column;
